@@ -1,0 +1,25 @@
+{
+  "name": "restaurantapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "ecom-products": "^1.0.3",
+    "express": "^4.16.2",
+    "fake-users-package": "^1.0.1",
+    "restaurantorders": "^1.0.0",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app"
+  },
+  "author": "Alessio Barresi",
+  "license": "MIT"
+}
